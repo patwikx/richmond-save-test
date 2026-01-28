@@ -23,9 +23,15 @@ export function Overview() {
                         <span className="eyebrow text-white block mb-6">
                             The Vision
                         </span>
-                        <h2>
-                            Strategic Growth in the <span className="opacity-40 italic">Heart of Mindanao</span>
-                        </h2>
+                        <motion.h1
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
+                            className="text-white text-3xl md:text-5xl font-sans font-bold leading-[1.1] mb-8 tracking-tight"
+                        >
+                            Strategic Growth in the <span className="opacity-50 italic">Heart of Mindanao</span>
+                        </motion.h1>
+
                         <div className="space-y-6 mt-10">
                             <p className="text-zinc-400 text-lg leading-relaxed">
                                 RD City, located in Polomolok, South Cotabato—the wealthiest municipality in Mindanao (2nd nationwide)—is a premier Mindanao Economic Development Zone.

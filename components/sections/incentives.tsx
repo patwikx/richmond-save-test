@@ -154,7 +154,7 @@ export function Incentives() {
             <div className="mt-48">
                 <div className="mx-auto max-w-7xl px-6 md:px-12 mb-20 text-center">
                     <h2 className="text-5xl md:text-7xl font-display leading-[1.1]">
-                        <span className="italic text-nowrap"> Our Tenants & Industrial Partners</span>
+                        <span className="italic text-nowrap"> Our Tenants</span>
                     </h2>
                 </div>
                 <div className="relative overflow-hidden border-y border-white/5 py-16 bg-zinc-950/20">
